@@ -3,6 +3,8 @@ Grill
 Restaurant Website Template
 ---------------------------
 
+![Screenshot](https://raw.githubusercontent.com/jtherczeg/grill-theme/master/assets/images/theme-preview.png)
+
 Grill is a free, responsive website theme for restaurants, using the Bootstrap 3 framework and HTML5 layouts, converted from a HTML template for OctoberCMS, without any 3rd party dependencies.
 
 Features
