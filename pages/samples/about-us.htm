@@ -1,0 +1,34 @@
+title = "About"
+url = "/about-us"
+layout = "about-us"
+description = "About us page"
+meta_author = "templatemo and József Tamás Herczeg"
+meta_description = "Free restaurant theme by templatemo, converted for OctoberCMS"
+meta_keywords = "business, restaurant, blog, responsive, bootstrap"
+==
+<div id="heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading-content">
+                    <h2>About Us</h2>
+                    <span>Home / <a href="{{ 'samples/about-us'|page }}">About us</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="timeline-post">
+    {% partial "about/intro" %}
+</div>
+
+
+<div id="our-team">
+    {% partial "about/team" %}
+</div>
+
+
+<div id="testimonails">
+    {% partial "about/feedback" %}
+</div>

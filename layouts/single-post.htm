@@ -1,0 +1,37 @@
+description = "Single post Layout"
+==
+<!DOCTYPE html>
+<html lang="en">
+{% partial "meta" %}
+
+<body>
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<header>
+    {% partial "top" %}
+    {% partial "nav" %}
+</header>
+
+{% page %}
+
+<footer>
+    <div class="container">
+       {% partial "socials" %}             
+       {% partial "bottom" %}             
+       {% partial "footer" %}             
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="{{ 'assets/vendor/modernizr-2.6.1-respond-1.1.0.min.js'|theme }}"></script>
+<script src="{{ 'assets/vendor/jquery-1.11.0.min.js'|theme }}"></script>
+<script src="{{ 'assets/vendor/jquery.gmap3.min.js'|theme }}"></script>
+<script src="{{ 'assets/js/plugins.js'|theme }}"></script>
+<script src="{{ 'assets/js/main.js'|theme }}"></script>
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>

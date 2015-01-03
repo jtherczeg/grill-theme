@@ -1,0 +1,14 @@
+name: Grill
+code: Grill
+description: templatemo's Free, responsive restaurant theme with HTML5 layouts, converted for OctoberCMS
+author: templatemo &amp; József Tamás Herczeg
+authorUrl: 'http://www.templatemo.com/'
+
+# [...]
+
+form:
+    fields:
+        site_name:
+            label: Site name
+            comment: The website name as it should appear on the front-end
+            default: Grill Template by templatemo
